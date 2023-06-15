@@ -1,0 +1,10 @@
+.intro {
+  border: 1px solid red;
+  display: flex;
+  flex-flow: column;
+  height: 429px;
+  width: 984px;
+  color: white;
+  padding: 0;
+  margin: 92px auto 0;
+}

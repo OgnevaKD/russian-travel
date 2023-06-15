@@ -1,0 +1,7 @@
+.cover {
+  border: 1px solid red;
+  max-width: 1184px;
+  max-height: 740px;
+  padding: 0;
+  margin: 92px auto 0;
+}
