@@ -1,9 +1,19 @@
 .lead {
-  border: 1px solid red;
   max-width: 984px;
-  height: 1005px;
   margin: 56px auto 0;
   padding: 0;
   display: flex;
   flex-flow: column;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 1024px) {
 }

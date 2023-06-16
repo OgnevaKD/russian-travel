@@ -1,10 +1,30 @@
 .intro {
-  border: 1px solid red;
   display: flex;
   flex-flow: column;
-  height: 429px;
-  width: 984px;
+  max-width: 984px;
   color: white;
   padding: 0;
   margin: 92px auto 0;
+  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: 768px;
+    margin: 88px auto 0;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    max-width: 320px;
+    margin: 64px auto 0;
+  }
 }

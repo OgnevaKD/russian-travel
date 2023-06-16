@@ -1,5 +1,4 @@
 .header {
-  border: 1px solid red;
   max-width: 1184px;
   height: 52px;
   display: flex;
@@ -8,4 +7,24 @@
   align-items: center;
   margin: 28px auto 0;
   padding: 0;
+  box-sizing: content-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    max-width: 288px;
+    margin: 18px auto 0;
+  }
 }

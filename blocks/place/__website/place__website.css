@@ -3,5 +3,11 @@
   max-height: 46px;
   padding: 0;
   align-self: end;
-  
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    width: 288px;
+    margin: 0 auto 0;
+  }
 }
