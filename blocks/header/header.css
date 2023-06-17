@@ -1,24 +1,23 @@
 .header {
-  max-width: 1184px;
-  height: 52px;
+  max-width: 92.5%;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   margin: 28px auto 0;
   padding: 0;
   box-sizing: content-box;
 }
 
-@media screen and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .header {
-    max-width: 928px;
+    max-width: 90.625%;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
   .header {
-    max-width: 720px;
+    max-width: 93.75%;
   }
 }
 
@@ -26,5 +25,6 @@
   .header {
     max-width: 288px;
     margin: 18px auto 0;
+    align-items: center;
   }
 }

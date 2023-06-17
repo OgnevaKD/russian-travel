@@ -4,7 +4,7 @@
   color: white;
   text-decoration: none;
   max-width: 1184px;
-  height: 740px;
+  min-height: 740px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,6 +12,7 @@
   position: relative;
   z-index: 0;
   transition: opacity 0.5s ease;
+  background-position: center;
 }
 
 .cover__link::before {
@@ -33,13 +34,27 @@
 @media screen and (max-width: 768px) {
   .cover__link {
     max-width: 768px;
-    height: 480px;
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__link {
+    max-width: 425px;
+    min-height: 265.625px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cover__link {
+    max-width: 375px;
+    min-height: 234.375px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__link {
     max-width: 320px;
-    height: 200px;
+    min-height: 200px;
   }
 }
