@@ -1,7 +1,6 @@
 .header {
   max-width: 92.5%;
   display: flex;
-  flex-flow: row;
   justify-content: space-between;
   align-items: flex-end;
   margin: 28px auto 0;
@@ -9,13 +8,13 @@
   box-sizing: content-box;
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .header {
     max-width: 90.625%;
   }
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .header {
     max-width: 93.75%;
   }
@@ -24,7 +23,7 @@
 @media screen and (max-width: 320px) {
   .header {
     max-width: 288px;
-    margin: 18px auto 0;
+    margin: 16px auto 0;
     align-items: center;
   }
 }

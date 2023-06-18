@@ -8,14 +8,14 @@
   line-height: 58px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .intro__title {
     max-width: 93.75%;
     margin: 0 auto;
   }
 }
 
-@media (min-width: 321px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .intro__title {
     max-width: 92%;
     font-size: 43px;

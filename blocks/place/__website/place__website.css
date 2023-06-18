@@ -1,20 +1,14 @@
 .place__website {
   max-width: 456px;
+  width: 100%;
   padding: 0;
   align-self: end;
 }
 
-@media (min-width: 376px) and (max-width: 767px) {
+@media screen and (max-width: 425px) {
   .place__website {
-    text-align: center;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__website {
-    max-width: 288px;
-    width: 100%;
+    max-width: 90%;
+    text-align: start;
     margin: 0 auto;
   }
 }
